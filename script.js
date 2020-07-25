@@ -13,14 +13,14 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 var dc = {};
 
-var homeHtmlUrl = "snippets/home-snippet.html";
+var homeHtmlUrl = "home-snippet.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "snippets/categories-title-snippet.html";
+var categoriesTitleHtml = "categories-title-snippet.html";
 var categoryHtml = "category-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-var menuItemsTitleHtml = "snippets/menu-items-title.html";
+var menuItemsTitleHtml = "menu-items-title.html";
 var menuItemHtml = "menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
